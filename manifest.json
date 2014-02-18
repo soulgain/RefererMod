@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Referer Modifier",
+    "version": "1.0",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs", "webRequestBlocking", "webRequest", "*://*/"]
+}
